@@ -1,0 +1,106 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+@font-face {
+    font-family: 'Lemon Sauce';
+    src: url('./font/Lemon\ Sangria_PersonalUseOnly.ttf');
+}
+@font-face {
+    font-family: 'Inner';
+    src: url('./font/LTBulletin-Medium.ttf')
+}
+html{
+    background-color: beige;
+}
+body{
+    margin: auto;
+    width: 1150px;
+}
+body h1{
+    font-family: 'Lemon Sauce';
+}
+body h2{
+    font-family: 'Inner';
+}
+header{
+    text-align: center;
+    font-size: 5.75em;
+    font-weight: 600;
+    color: black;
+}
+#missiontop{
+    text-align: center;
+    color: red;
+    font-size: 2.5em;
+}
+#missioninner{
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 400;
+}
+#sitetop{
+    text-align: center;
+    color: red;
+    font-size: 2.5em;
+    margin-bottom: 1%;
+}
+#siteinner{
+    text-align: center;
+    width: 1150px; 
+    font-size: 1.25em;               
+    font-weight: 400;
+    margin-top: 1%;
+}
+#g_t{
+    text-indent: 165px;
+    color: red;
+    font-size: 2em;
+}
+.g_i{
+    text-align: left;
+    width: 575px;
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-top: 1%;
+}
+#target_t{
+    text-indent: 165px;
+    font-size: 2em;
+    color: red;
+}
+#target_i{
+    width: 575px;
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-top: 1%;
+}
+#content_t{
+    text-align: center;
+    color: red;
+    font-size: 2.5em;
+    margin-bottom: 1%;
+}
+#content_i{
+    text-align: center;
+    width: 1150px; 
+    font-size: 1.25em;               
+    font-weight: 400;
+    margin-top: 1%;
+}
