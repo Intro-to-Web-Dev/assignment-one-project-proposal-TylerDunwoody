@@ -19,88 +19,178 @@ time, mark, audio, video {
     background:transparent;
 }
 @font-face {
-    font-family: 'Lemon Sauce';
-    src: url('./font/Lemon\ Sangria_PersonalUseOnly.ttf');
-}
-@font-face {
     font-family: 'Inner';
     src: url('./font/LTBulletin-Medium.ttf')
 }
 html{
-    background-color: beige;
+    background-color: skyblue;
+    height: 1280px;
 }
 body{
     margin: auto;
     width: 1150px;
-}
-body h1{
-    font-family: 'Lemon Sauce';
-}
-body h2{
-    font-family: 'Inner';
+    background-color: white;
+    height: 1230px;
+    margin-top: 25px;
 }
 header{
     text-align: center;
     font-size: 5.75em;
     font-weight: 600;
-    color: black;
+    color: skyblue;
+    margin-top: 10px;
 }
-#missiontop{
+#mission{
+    width: 500px;
+    height: 250px;
+    background-color: lightgray;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#mission h1{
     text-align: center;
-    color: red;
+    color: white;
     font-size: 2.5em;
+    background-color: gray;
+    width: 450px;
+    margin: auto;
+    margin-bottom: 22px;
 }
-#missioninner{
+#mission h2{
     text-align: center;
-    font-size: 1.25em;
-    font-weight: 400;
+    font-size: 21px;
+    font-weight: 350;
+    color: white;
+    width: 450px;
+    margin: auto;
 }
-#sitetop{
+#insp{
+    height: 300px;
+    width: 1050px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 40px;
+}
+#insp h1{
     text-align: center;
-    color: red;
+    color: whitesmoke;
     font-size: 2.5em;
-    margin-bottom: 1%;
+    margin-bottom: -5px;
+    width: 1000px;
+    margin: auto;
+    background-color: gray;
 }
-#siteinner{
+#insp h2{
     text-align: center;
-    width: 1150px; 
+    width: 450px; 
     font-size: 1.25em;               
     font-weight: 400;
     margin-top: 1%;
+    margin-left: 50px;
+    color: white;
 }
-#g_t{
-    text-indent: 165px;
-    color: red;
-    font-size: 2em;
+#insp img{
+    margin-left: 575px;
+    margin-top: -300px;
+    width: 425px;
 }
-.g_i{
-    text-align: left;
-    width: 575px;
-    font-size: 1.25em;
-    font-weight: 400;
-    margin-top: 1%;
+#goals{
+    width: 500px;
+    height: 250px;
+    background-color: lightgray;
+    margin-left: 600px;
+    margin-top: -250px;
 }
-#target_t{
-    text-indent: 165px;
-    font-size: 2em;
-    color: red;
-}
-#target_i{
-    width: 575px;
-    font-size: 1.25em;
-    font-weight: 400;
-    margin-top: 1%;
-}
-#content_t{
-    text-align: center;
-    color: red;
+#goals h1{
+    color: white;
     font-size: 2.5em;
-    margin-bottom: 1%;
-}
-#content_i{
+    background-color: gray;
+    width: 450px;
+    margin: auto;
     text-align: center;
-    width: 1150px; 
+    margin-bottom: 10px;
+}
+#goals h2{
+    text-align: center;
+    width: 450px;
+    font-size: 21px;
+    font-weight: 400;
+    margin: auto;
+    color: white;
+}
+#target{
+    width: 500px;
+    height: 250px;
+    background-color: lightgray;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#target h1{
+    text-align: center;
+    margin: auto;
+    font-size: 2.5em;
+    color: white;
+    width: 450px;
+    background-color: gray;
+    margin-bottom:7px;
+}
+#target h2{
+    width: 450px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+#pg_cont{
+    width: 1050px;
+    height: 170px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 40px;
+}
+#pg_cont h1{
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 22px;
+    width: 1000px;
+    background-color: gray;
+    margin: auto;
+}
+#pg_cont h2{
+    text-align: center;
+    width: 1000px; 
     font-size: 1.25em;               
     font-weight: 400;
-    margin-top: 1%;
+    width: 1000px;
+    margin: auto;
+    color: white;
+}
+#games{
+    background-color: lightgray;
+    width: 500px;
+    height: 250px;
+    margin-left: 600px;
+    margin-top: -250px;
+}
+#games h1{
+    width: 450px;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+#games button{
+    width: 450px;
+    height: 200px;
+    background-color: gray;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 2.5em;
+    color: white;
+}
+.spc{
+    height: 10px;
+    width: 10px;
 }

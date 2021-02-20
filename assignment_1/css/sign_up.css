@@ -1,0 +1,125 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+html{
+    background-color: slateblue;
+    height: 800px;
+}
+body{
+    width: 1050px;
+    height: 720px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+}
+header{
+    font-size: 5.75em;
+    text-align: center;
+}
+#rl{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(179, 178, 178);
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#rl h1{
+    width: 250px;
+    font-size: 30px;
+    background-color: slateblue;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+#rl p{
+    width: 220px;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+#rl button{
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 25px;
+    text-align: center;
+}
+#fort{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(179, 178, 178);
+    margin-left: 375px;
+    margin-top: -500px;
+}
+#fort h1{
+    width: 250px;
+    font-size: 30px;
+    background-color: slateblue;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+#fort p{
+    width: 200px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#fort button{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 20px;
+    background-color: white;
+}
+#cod{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(179, 178, 178);
+    margin-left: 700px;
+    margin-top: -500px;
+}
+#cod h1{
+    width: 250px;
+    font-size: 30px;
+    background-color: slateblue;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+#cod p{
+    width: 200px;
+    margin: auto;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+#cod button{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 20px;
+    background-color: white;
+}
